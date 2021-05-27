@@ -1,0 +1,20 @@
+Learning ASP_NET
+	ASP.NET (.NET Framework)
+	MVC template
+WebFormsApplication
+	ASP.NET (.NET Framework)
+	Web Forms Template
+
+---------------------------------------------------------
+Notes for Study:
+- General
+  - For Web Forms, you can switch between the Source code and the Design layout which showsyou what it looks like. This is useful since its an interactable UI that updates your source code when you make changes.
+  - Web Forms keeps html in one file and the programming in a separate file. Refered to as 'Code Behind' page model
+- default.aspx is the _Layout file for Web Forms. Under it is default.aspx.cs which is where you would write code for the programming logic like event handlers and other server-side code.
+- Site.Master = where you define consistent appearance for all pages in your app.
+- Global.asax = where you would find code to handle application and session-level envents raised by ASP.NET
+- Content Folder = holds all css
+- Scripts folder = holds all scripts (.js, jQuery,)
+  - jQuery = JavaScript library that allows you to traverse HTML docsuments and handle client-side events
+- wed.config = xml file where app configuration data is stored. Settings like database connection strings and authentication modes are setup here.
+- 
